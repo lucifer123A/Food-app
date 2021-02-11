@@ -12,7 +12,7 @@ export const useResults=()=>{
             {params:{
                 limit:50,
                 term:searchTerm,
-                location:'roma'
+                location:'san jose'
             }})
             setResults(response.data.businesses)
         }
